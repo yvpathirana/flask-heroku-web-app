@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assingmessssssss</title>
+		<link rel="stylesheet" href="{{url_for('static',filename='css/stayle.css')}}">
+	</head>
+<body>
+	<div class="container">
+		<h1 class="logo">web page</h1>
+		<a href="{{url_for('home')}}">home</a><br />
+		<a href="{{url_for('page')}}">page</a>
+	</div>
+	<div class="container">
+		{%block content%}
+		{%endblock%}
+	</div>
+</body>
+</html>
