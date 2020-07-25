@@ -8,6 +8,9 @@ def home():
 @app.route('/about')
 def page():
 	return render_template("page.html")
+@app.route('/nav')
+def nav():
+	return render_template("navigation.html")
 
 if __name__=="__main__":
 	app.run(debug=True)
