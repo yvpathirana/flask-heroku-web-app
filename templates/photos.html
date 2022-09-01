@@ -1,0 +1,36 @@
+<hyml>
+<head>
+<title>photos</title>
+</head>
+<body>
+<table border="2">
+	<tr>
+	<td><img src="{{url_for('static',filename='images/a.jpg')}}" width="350" height="200"></td>
+	<td><img src="{{url_for('static',filename='images/b.jpg')}}" width="350" height="200"></td>
+	<td><img src="{{url_for('static',filename='images/c.jpg')}}" width="350" height="200"></td>
+	</tr>
+	<tr>
+	<td><img src=".{{url_for('static',filename='images/d.jpg')}}"width="350" height="200"></td>
+	<td><img src="{{url_for('static',filename='images/e.jpg')}}"width="350" height="200"></td>
+	<td><img src=".{{url_for('static',filename='images/f.jpg')}}"width="350" height="200"></td>
+	</tr>
+	<tr>
+	<td><img src="{{url_for('static',filename='images/g.jpg')}}"width="350" height="200"></td>
+	<td><img src="{{url_for('static',filename='images/h.jpg')}}"width="350" height="200"></td>
+	<td><img src="{{url_for('static',filename='images/i.jpg')}}"width="350" height="200"></td>
+	</tr>
+	<tr>
+	<td><img src="{{url_for('static',filename='images/k.jpg')}}"width="350" height="200"></td>
+	<td><img src="{{url_for('static',filename='images/l.jpg')}}"width="350" height="200"></td>
+	<td><img src="{{url_for('static',filename='images/m.jpg')}}"width="350" height="200"></td>
+	</tr>
+	<tr>
+	<td><img src="{{url_for('static',filename='images/n.jpg')}}"width="350" height="200"></td>
+	<td><img src="{{url_for('static',filename='images/o.jpg')}}"width="350" height="200"></td>
+	<td><img src="{{url_for('static',filename='images/j.jpg')}}"width="350" height="200"></td>
+	</tr>
+	
+</table>
+<a href="{{url_for('home')}}">home</a>
+</body>
+</html>
